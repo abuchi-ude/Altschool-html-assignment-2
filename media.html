@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    <div class="container">
+        <h1>About Me</h1>
+        <picture>
+            <source media="(min-width: 1024px)" srcset="/assignments altschool/asset/dx.jpg" type="image/jpg">
+            <source srcset="/assignments altschool/asset/download.jpg" type="image/jpg" media="(min-width: 601px) and (max-width: 1024px)">
+            <source srcset="/assignments altschool/asset/images.jpg" type="image/jpg" media="(max-width: 600px)">
+            <img src="/assignments altschool/asset/img.jpg" alt="picture">
+        </picture>
+        <p>Hello! My name is abuchi, a passionate web developer with a love for creating 
+            beautiful and functional websites. I enjoy learning new technologies and 
+            improving my skills every day.</p>
+        
+        <h2>My Favorite Song</h2>
+        <audio controls>
+            <source src="/assignments altschool/asset/Twenty_One_Pilots_-_Stressed_Out.mp3" type="audio/mpeg">
+        </audio>
+        
+        <h2>My Introduction Video</h2>
+        <video controls>
+            <source src="/assignments altschool/asset/video.mp4" type="video/mp4">
+            
+        </video>
+        
+        <h2>My Portfolio</h2>
+        <iframe src="https://www.example.com" title="My Portfolio"></iframe>
+        <h2>My Favorite Animation</h2>
+        <embed src="animation/favorite-animation.swf" type="application/x-shockwave-flash">
+        
+        </object>
+    </div>
+</body>
+</html>
