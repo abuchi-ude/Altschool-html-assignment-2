@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        video{
+            width: 40vw;
+            height: 20vh;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -11,7 +20,7 @@
         <picture>
             <source media="(min-width: 1024px)" srcset="/asset/dx.jpg" type="image/jpeg">
             <source srcset="/asset/download.jpg" type="image/jpeg" media="(min-width: 601px) and (max-width: 1024px)">
-            <source srcset="/asset/images.jpeg" type="image/jpeg" media="(max-width: 600px)">
+            <source srcset="/asset/images.jpeg" type="image/jpeg" media="(min-width:100px) and (max-width: 600px)">
             <img src="/asset/img.jpg" alt="picture">
         </picture>
         <p>Hello! My name is abuchi, a passionate web developer with a love for creating 
@@ -30,11 +39,7 @@
         </video>
         
         <h2>My Portfolio</h2>
-        <iframe src="#" title="My Portfolio"></iframe>
-        <h2>My Favorite Animation</h2>
-        <embed src="animation/favorite-animation.swf" type="application/x-shockwave-flash">
-        
-        </object>
+        <iframe src="https://jocular-toffee-e8653c.netlify.app/" title="My Portfolio"></iframe>
     </div>
 </body>
 </html>
